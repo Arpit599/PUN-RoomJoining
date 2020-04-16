@@ -24,12 +24,6 @@ public class TableLauncher : MonoBehaviourPunCallbacks
         PhotonNetwork.AutomaticallySyncScene = true; // To sync the same scene on all the available users
     }
 
-    private void Start()
-    {
-        //PhotonNetwork.ConnectUsingSettings();  // To connect to the Photon server
-        //PhotonNetwork.GameVersion = gameVersion;
-    }
-
     #region MonobehaviourPunCallbacks
 
     public override void OnConnectedToMaster()
